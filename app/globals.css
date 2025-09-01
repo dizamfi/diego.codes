@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 14 16 24;
+  --fg: 240 240 245;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-[rgb(var(--bg))] text-[rgb(var(--fg))];
+  background-image:
+    radial-gradient(ellipse at 20% -10%, rgba(99,102,241,0.20), transparent 40%),
+    radial-gradient(ellipse at 80% 10%, rgba(236,72,153,0.18), transparent 40%),
+    radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), transparent 40%);
+  background-attachment: fixed;
+}
+
+.container-3xl { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6, #22c55e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.10), transparent);
+  transform: translateX(-200%);
+}
+
+.card-hover:hover::after {
+  animation: shimmer 1.2s ease;
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(200%); }
+}
+
+a.link-underline {
+  @apply underline decoration-white/30 underline-offset-4 hover:decoration-white;
+}

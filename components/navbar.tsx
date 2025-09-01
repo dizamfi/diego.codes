@@ -25,7 +25,7 @@ export default function Navbar() {
               {links.map((l) => {
                 const active = pathname === l.href;
                 return (
-                  <Link key={l.href} href={l.href} className="relative px-3 py-2 rounded-xl hover:bg-white/5 transition">
+                  <Link key={l.href} ref={l.href} className="relative px-3 py-2 rounded-xl hover:bg-white/5 transition" href={"/"}>
                     <span className={clsx("text-sm", active && "gradient-text font-semibold")}>{l.label}</span>
                     {active && (
                       <motion.span

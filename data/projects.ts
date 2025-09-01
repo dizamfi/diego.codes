@@ -40,9 +40,9 @@ export const projects: Project[] = [
     title: "Iphone Copy Frontend",
     description: "Librería de componentes accesibles con dark mode y tokens de diseño.",
     tags: ["React", "Storybook", "A11y"],
-    href: "https://iphone-copy-ln904spxm-diego-947ec1e2.vercel.app/",
+    href: "http://localhost:3000/auth/signin",
     repo: "https://github.com/tuuser/astra-ui",
-    cover: "/covers/iphoneCopy.png",
+    cover: "/covers/taskFlow.png",
     demoType: "web"
   },
   {

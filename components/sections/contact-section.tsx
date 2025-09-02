@@ -18,7 +18,7 @@ export default function ContactSection() {
         <p className="text-white/80 max-w-2xl mx-auto mb-6">
           Escríbeme y conversemos sobre tu idea, producto o equipo. Respondo rápido.
         </p>
-        <a href="mailto:tuemail@correo.com" className="inline-flex items-center gap-2 bg-white text-black font-medium px-5 py-3 rounded-2xl hover:opacity-90 transition">
+        <a href="mailto:diego.z.f99@gmail.com" className="inline-flex items-center gap-2 bg-white text-black font-medium px-5 py-3 rounded-2xl hover:opacity-90 transition">
           <Mail className="h-4 w-4" /> Contactar
         </a>
       </div>

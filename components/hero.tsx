@@ -35,7 +35,7 @@ export default function Hero() {
             </span>
             <span className="absolute inset-0 bg-gradient-to-r from-brand-500/30 to-fuchsia-500/30 opacity-0 group-hover:opacity-100 transition" />
           </Link>
-          <a href="/cv.pdf" className="rounded-2xl px-5 py-3 bg-white text-black font-medium hover:opacity-90 transition inline-flex items-center gap-2">
+          <a href="/" className="rounded-2xl px-5 py-3 bg-white text-black font-medium hover:opacity-90 transition inline-flex items-center gap-2">
             <Download className="h-4 w-4" /> Descargar CV
           </a>
         </div>

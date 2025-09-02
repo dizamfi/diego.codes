@@ -11,19 +11,19 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Brainwave",
-    description: "Panel de control en tiempo real para IoT y sensores con gráficos y WebSockets.",
-    tags: ["Next.js", "TypeScript", "WebSockets", "Tailwind"],
+    description: "Proyecto front-end SPA hecho con React + Vite y estilizado con Tailwind",
+    tags: ["React.js", "Vite", "Tailwind"],
     href: "https://brainwave-rebs7876l-diego-947ec1e2.vercel.app/",
-    repo: "https://github.com/tuuser/neptuno-dashboard",
+    repo: "https://github.com/dizamfi/brainwave.git",
     cover: "/covers/brainwave.png",
     demoType: "web"
   },
   {
     title: "Iphone Copy Frontend",
-    description: "Librería de componentes accesibles con dark mode y tokens de diseño.",
-    tags: ["React", "Storybook", "A11y"],
+    description: "Una recreación del sitio oficial de Apple Iphone 15 Pro que combina tecnologías de frontend modernas.",
+    tags: ["React", "Vite", "Tailwind", "GSAP", "Three.js"],
     href: "https://iphone-copy-ln904spxm-diego-947ec1e2.vercel.app/",
-    repo: "https://github.com/tuuser/astra-ui",
+    repo: "https://github.com/dizamfi/iphoneCopy.git",
     cover: "/covers/iphoneCopy.png",
     demoType: "web"
   },
@@ -31,27 +31,18 @@ export const projects: Project[] = [
     title: "App Flutter Camaronera",
     description: "App móvil de monitoreo en camaronera Naturisa.",
     tags: ["Flutter", "Dart", "Firebase", "Node.js", "WebSockets", "Rive"],
-    href: "/videos/videoFlutter2.mp4",    // <-- el video mp4 en public/videos/
-    repo: "https://github.com/tuuser/flutter-app",
+    href: "/videos/videoFlutter2.mp4",   
+    repo: "https://github.com/dizamfi/appNaturisa.git",
     cover: "/covers/flutter2.avif",
     demoType: "flutter"
   },
   {
-    title: "Iphone Copy Frontend",
-    description: "Librería de componentes accesibles con dark mode y tokens de diseño.",
-    tags: ["React", "Storybook", "A11y"],
+    title: "Sistema de Gestión de Tareas",
+    description: "Sistema para gestionar tus tareas de manera eficiente.",
+    tags: ["Next.js", "Supabase", "Tailwind", "Vitest"],
     href: "http://localhost:3000/auth/signin",
-    repo: "https://github.com/tuuser/astra-ui",
+    repo: "https://github.com/dizamfi/TaskFlow.git",
     cover: "/covers/taskFlow.png",
-    demoType: "web"
-  },
-  {
-    title: "Iphone Copy Frontend",
-    description: "Librería de componentes accesibles con dark mode y tokens de diseño.",
-    tags: ["React", "Storybook", "A11y"],
-    href: "https://iphone-copy-ln904spxm-diego-947ec1e2.vercel.app/",
-    repo: "https://github.com/tuuser/astra-ui",
-    cover: "/covers/iphoneCopy.png",
     demoType: "web"
   },
 ];

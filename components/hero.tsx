@@ -24,7 +24,7 @@ export default function Hero() {
         </h1>
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-white/80">
           <Balancer>
-            Desarrollo interfaces impecables con <strong>Next.js</strong>, animaciones con <strong>Framer Motion</strong> y
+            Desarrollador FullStack. Disfruto creando interfaces modernas con" <strong>Next.js</strong>, animaciones con <strong>Framer Motion</strong> y
             un ojo obsesivo por el detalle.
           </Balancer>
         </p>
